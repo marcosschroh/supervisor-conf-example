@@ -1,5 +1,5 @@
-# Supervisor (on production)
-
+Supervisor (on production)
+=========================
 
 1. Install supervisor
 ```bash
@@ -13,7 +13,7 @@
 supervisord -c supervisor.conf
 ```
 
-4. A few Supervisor commands:
+4. Supervisor commands:
 ```bash
 supervisorctl status 
 supervisorctl stop all
