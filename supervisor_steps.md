@@ -1,19 +1,20 @@
-Supervisor (on production)
-=========================
+# Supervisor (on production)
 
-1. Install supervisor
+
+- Install supervisor
 ```bash
     pip install supervisor
 ```
 
-2. create a `supervisor.conf` file where the manage.py file is with the following content:
+- Create a `supervisor.conf` file where the manage.py file is with the following content:
+[supervisor_example.conf](https://github.com/marcosschroh/supervisor-conf-example/blob/master/supervisor_example.conf)
 
-3. Run the following command:
+- Run the following command:
 ```bash
 supervisord -c supervisor.conf
 ```
 
-4. Supervisor commands:
+- A few Supervisor commands:
 ```bash
 supervisorctl status 
 supervisorctl stop all
